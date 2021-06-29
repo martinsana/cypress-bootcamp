@@ -1,2 +1,2 @@
 # cypress-bootcamp
-Teste utilizando Cypress
+Testes web utilizando Cypress
