@@ -2,7 +2,7 @@
 Funcionalidade: Cadastro
 
     Como usuário, desejo realizar um cadastro 
-    para acessa o sistema
+    para acessa o sistemaa
 
     Cenario: Cadastro de usuário no site
       Dado estou na página de cadastro
