@@ -37,7 +37,7 @@ jobs:
     - run: npm install
     
     #run tests
-    - run: npm run cy:run:cucumber
+    - run: npm run cy:run-cucumber
       continue-on-error: true
     
     #generate report
