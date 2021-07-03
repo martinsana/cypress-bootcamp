@@ -5,7 +5,7 @@ let Chance = require('chance');
 // Instantiate Chance so it can be used
 var chance = new Chance();
 
-context('Cdastro', () => {
+context('Cadastro', () => {
   it('Cadastro de usuário no site', () => {
     cy.server();
     cy.route({
