@@ -23,7 +23,7 @@
             "name": "estou na página de cadastro",
             "result": {
               "status": "passed",
-              "duration": 12124000000
+              "duration": 10036000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "eu realizo o cadastro",
             "result": {
               "status": "failed",
-              "duration": 4798000000,
+              "duration": 4116000000,
               "error_message": "Error: A fixture file could not be found at any of the following paths:\n\n> cypress/fixtures/image.png\n> cypress/fixtures/image.png{{extension}}\n\nCypress looked for these file extensions at the provided path:\n\n> .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.\n    at get (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/lib/errors.js:946:15)\n    at Object.throwErr [as throw] (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/lib/errors.js:964:9)\n    at Object.<anonymous> (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/lib/fixture.js:62:23)\n    at Object.tryCatcher (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:547:31)\n    at Promise._settlePromise (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:604:18)\n    at Promise._settlePromise0 (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:649:10)\n    at Promise._settlePromises (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:729:18)\n    at Promise._fulfill (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:673:18)\n    at /home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/nodeback.js:42:21\n    at f (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/once/once.js:25:25)\n    at Glob.<anonymous> (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:151:7)\n    at Glob.emit (events.js:210:5)\n    at Glob._finish (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:197:8)\n    at done (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:182:14)\n    at Glob._processSimple2 (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:688:12)\n    at /home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:676:10\n    at Glob._stat2 (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:772:12)\n    at lstatcb_ (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/glob/glob.js:764:12)\n    at RES (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/inflight/inflight.js:31:16)\n    at f (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/once/once.js:25:25)\n    at callback (/home/runner/.cache/Cypress/4.10.0/Cypress/resources/app/packages/server/node_modules/graceful-fs/polyfills.js:289:20)\n    at FSReqCallback.oncomplete (fs.js:158:21)\n"
             }
           },
@@ -83,7 +83,7 @@
             "name": "que o site não possui registro",
             "result": {
               "status": "passed",
-              "duration": 17011000000
+              "duration": 14220000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "acesso a listagem",
             "result": {
               "status": "passed",
-              "duration": 6892000000
+              "duration": 6281000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "devo visualizar a listagem vazia",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 86000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "que o site possui apenas um registro",
             "result": {
               "status": "passed",
-              "duration": 422000000
+              "duration": 260000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "acesso a listagem",
             "result": {
               "status": "passed",
-              "duration": 2794000000
+              "duration": 8468000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "devo visualizar apenas um registro",
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 165000000
             }
           }
         ]
