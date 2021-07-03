@@ -23,7 +23,7 @@
             "name": "estou na página de cadastro",
             "result": {
               "status": "passed",
-              "duration": 8480000000
+              "duration": 10242000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "eu realizo o cadastro",
             "result": {
               "status": "passed",
-              "duration": 3607000000
+              "duration": 3998000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "clico em salvar",
             "result": {
               "status": "passed",
-              "duration": 6448000000
+              "duration": 5822000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "eu acesso o sistema",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 50000000
             }
           }
         ]
