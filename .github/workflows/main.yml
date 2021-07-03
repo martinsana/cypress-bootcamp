@@ -29,15 +29,16 @@ jobs:
     
     # Node setup
     - name: Setup Node.js environment
-      uses: actions/setup-node@v2.2.0
+      uses: actions/setup-node@v2.1.5
       with:
-        node-version: ${{matrix.node-version}}
+        node-version: ${{ matrix.node-version }}
         
     #install dependencies
     - run: npm install
     
     #run tests
-    - run: npm run cy:run-cucumber
+    - run: npm run cy:run:cucumber
+      continue-on-error: true
     
     #generate report
     - run: npm run report:cucumber
@@ -45,11 +46,11 @@ jobs:
     - name: Deploy to GitHub Pages
     # You may pin to the exact commit or the version.
     # uses: JamesIves/github-pages-deploy-action@5dc1d5a192aeb5ab5b7d5a77b7d36aea4a7f5c92
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: cypress/reports
+        FOLDER: mochawesome-report
     
     
     
